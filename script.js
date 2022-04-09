@@ -4,7 +4,7 @@ function getWeather() {
 
     let apiKey = '025551c2ec00d510aa3cb30f1a56a741';
 
-    let apiUrl=`http://api.openweathermap.org/geo/1.0/zip?zip=${inputValue},US&appid=${apiKey}`;
+    let apiUrl=`https://api.openweathermap.org/geo/1.0/zip?zip=${inputValue},US&appid=${apiKey}`;
 
     fetch(apiUrl)
     .then((response) => response.json())

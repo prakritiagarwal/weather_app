@@ -33,12 +33,12 @@ function getWeather() {
      
             
             document.querySelector("#City").innerText = city;
-            document.querySelector("#Temperature").innerText = current_temp;
+            document.querySelector("#Temperature").innerText = `${current_temp}°F`;
             document.querySelector("#Date").innerText = date;
             document.querySelector("#Conditions").innerText = current_condition;
-             document.querySelector("#Humidity").innerText = humidity;
-             document.querySelector("#High").innerText=tempMax;
-             document.querySelector("#Low").innerText=tempMin;
+             document.querySelector("#Humidity").innerText = `Humididy ${humidity}`;
+             document.querySelector("#High").innerText= `High ${tempMax}°F`;
+             document.querySelector("#Low").innerText=`Low ${tempMin}°F`  ;
 
 
     });

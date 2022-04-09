@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 <body>    
     <div class="card">        
         <div class="search">
             <input type="text" id="zipcode_input">
-            <button class="button" onclick="getWeather()">Search</button>
+            <button class="button" onclick="getWeather()">
+                <i class="fas fa-search"></i>Search</button>
         </div>
         <div class="Weather">
             <h2 id="City"></h2>
